@@ -23,8 +23,8 @@ function moveNoButton() {
     let randomX, randomY;
 
     do {
-        randomX = Math.random() < 0.5 ? Math.floor(Math.random() * 800) + 1 : -Math.floor(Math.random() * 900) + 1;
-        randomY = Math.random() < 0.5 ? Math.floor(Math.random() * 300) + 1 : -Math.floor(Math.random() * 800) + 1;
+        randomX = Math.random() < 0.5 ? Math.floor(Math.random() * 100) + 1 : -Math.floor(Math.random() * 100) + 1;
+        randomY = Math.random() < 0.5 ? Math.floor(Math.random() * 100) + 1 : -Math.floor(Math.random() * 100) + 1;
     } while (isTooClose(randomX, randomY, yesButton, minDistance));
 
     noButton.style.left = `${randomX}px`;
