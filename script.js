@@ -1,5 +1,5 @@
 function onWindowLoad() {
-    alert("WARNING!!! PLEASE ANSWER THE FOLLOWING QUESTION CAREFULLY!");
+    alert("WARNING!!! PLEASE ANSWER THE FOLLOWING QUESTION CAREFULLY! coded by Samael.");
 }
 
 window.onload = onWindowLoad;
